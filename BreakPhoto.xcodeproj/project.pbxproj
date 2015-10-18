@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEBD5E81BD37C3C005BBCF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBD5E71BD37C3C005BBCF6 /* AppDelegate.swift */; };
+		FAEBD5EA1BD37C3C005BBCF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBD5E91BD37C3C005BBCF6 /* ViewController.swift */; };
+		FAEBD5ED1BD37C3C005BBCF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEBD5EB1BD37C3C005BBCF6 /* Main.storyboard */; };
+		FAEBD5F01BD37C3C005BBCF6 /* BreakPhoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAEBD5EE1BD37C3C005BBCF6 /* BreakPhoto.xcdatamodeld */; };
+		FAEBD5F21BD37C3C005BBCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEBD5F11BD37C3C005BBCF6 /* Assets.xcassets */; };
+		FAEBD5F51BD37C3C005BBCF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEBD5F31BD37C3C005BBCF6 /* LaunchScreen.storyboard */; };
+		FAEBD6001BD37C3C005BBCF6 /* BreakPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBD5FF1BD37C3C005BBCF6 /* BreakPhotoTests.swift */; };
+		FAEBD60B1BD37C3C005BBCF6 /* BreakPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEBD60A1BD37C3C005BBCF6 /* BreakPhotoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEBD5FC1BD37C3C005BBCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEBD5DC1BD37C3C005BBCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEBD5E31BD37C3C005BBCF6;
+			remoteInfo = BreakPhoto;
+		};
+		FAEBD6071BD37C3C005BBCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEBD5DC1BD37C3C005BBCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEBD5E31BD37C3C005BBCF6;
+			remoteInfo = BreakPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAEBD5E41BD37C3C005BBCF6 /* BreakPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEBD5E71BD37C3C005BBCF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEBD5E91BD37C3C005BBCF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAEBD5EC1BD37C3C005BBCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEBD5EF1BD37C3C005BBCF6 /* BreakPhoto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BreakPhoto.xcdatamodel; sourceTree = "<group>"; };
+		FAEBD5F11BD37C3C005BBCF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEBD5F41BD37C3C005BBCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAEBD5F61BD37C3C005BBCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEBD5FB1BD37C3C005BBCF6 /* BreakPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEBD5FF1BD37C3C005BBCF6 /* BreakPhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPhotoTests.swift; sourceTree = "<group>"; };
+		FAEBD6011BD37C3C005BBCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEBD6061BD37C3C005BBCF6 /* BreakPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEBD60A1BD37C3C005BBCF6 /* BreakPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPhotoUITests.swift; sourceTree = "<group>"; };
+		FAEBD60C1BD37C3C005BBCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEBD5E11BD37C3C005BBCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEBD5F81BD37C3C005BBCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEBD6031BD37C3C005BBCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEBD5DB1BD37C3C005BBCF6 = {
+			isa = PBXGroup;
+			children = (
+				FAEBD5E61BD37C3C005BBCF6 /* BreakPhoto */,
+				FAEBD5FE1BD37C3C005BBCF6 /* BreakPhotoTests */,
+				FAEBD6091BD37C3C005BBCF6 /* BreakPhotoUITests */,
+				FAEBD5E51BD37C3C005BBCF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEBD5E51BD37C3C005BBCF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBD5E41BD37C3C005BBCF6 /* BreakPhoto.app */,
+				FAEBD5FB1BD37C3C005BBCF6 /* BreakPhotoTests.xctest */,
+				FAEBD6061BD37C3C005BBCF6 /* BreakPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEBD5E61BD37C3C005BBCF6 /* BreakPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBD5E71BD37C3C005BBCF6 /* AppDelegate.swift */,
+				FAEBD5E91BD37C3C005BBCF6 /* ViewController.swift */,
+				FAEBD5EB1BD37C3C005BBCF6 /* Main.storyboard */,
+				FAEBD5F11BD37C3C005BBCF6 /* Assets.xcassets */,
+				FAEBD5F31BD37C3C005BBCF6 /* LaunchScreen.storyboard */,
+				FAEBD5F61BD37C3C005BBCF6 /* Info.plist */,
+				FAEBD5EE1BD37C3C005BBCF6 /* BreakPhoto.xcdatamodeld */,
+			);
+			path = BreakPhoto;
+			sourceTree = "<group>";
+		};
+		FAEBD5FE1BD37C3C005BBCF6 /* BreakPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBD5FF1BD37C3C005BBCF6 /* BreakPhotoTests.swift */,
+				FAEBD6011BD37C3C005BBCF6 /* Info.plist */,
+			);
+			path = BreakPhotoTests;
+			sourceTree = "<group>";
+		};
+		FAEBD6091BD37C3C005BBCF6 /* BreakPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBD60A1BD37C3C005BBCF6 /* BreakPhotoUITests.swift */,
+				FAEBD60C1BD37C3C005BBCF6 /* Info.plist */,
+			);
+			path = BreakPhotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEBD5E31BD37C3C005BBCF6 /* BreakPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEBD60F1BD37C3C005BBCF6 /* Build configuration list for PBXNativeTarget "BreakPhoto" */;
+			buildPhases = (
+				FAEBD5E01BD37C3C005BBCF6 /* Sources */,
+				FAEBD5E11BD37C3C005BBCF6 /* Frameworks */,
+				FAEBD5E21BD37C3C005BBCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreakPhoto;
+			productName = BreakPhoto;
+			productReference = FAEBD5E41BD37C3C005BBCF6 /* BreakPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAEBD5FA1BD37C3C005BBCF6 /* BreakPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEBD6121BD37C3C005BBCF6 /* Build configuration list for PBXNativeTarget "BreakPhotoTests" */;
+			buildPhases = (
+				FAEBD5F71BD37C3C005BBCF6 /* Sources */,
+				FAEBD5F81BD37C3C005BBCF6 /* Frameworks */,
+				FAEBD5F91BD37C3C005BBCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEBD5FD1BD37C3C005BBCF6 /* PBXTargetDependency */,
+			);
+			name = BreakPhotoTests;
+			productName = BreakPhotoTests;
+			productReference = FAEBD5FB1BD37C3C005BBCF6 /* BreakPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAEBD6051BD37C3C005BBCF6 /* BreakPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEBD6151BD37C3C005BBCF6 /* Build configuration list for PBXNativeTarget "BreakPhotoUITests" */;
+			buildPhases = (
+				FAEBD6021BD37C3C005BBCF6 /* Sources */,
+				FAEBD6031BD37C3C005BBCF6 /* Frameworks */,
+				FAEBD6041BD37C3C005BBCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEBD6081BD37C3C005BBCF6 /* PBXTargetDependency */,
+			);
+			name = BreakPhotoUITests;
+			productName = BreakPhotoUITests;
+			productReference = FAEBD6061BD37C3C005BBCF6 /* BreakPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEBD5DC1BD37C3C005BBCF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BigOK;
+				TargetAttributes = {
+					FAEBD5E31BD37C3C005BBCF6 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FAEBD5FA1BD37C3C005BBCF6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FAEBD5E31BD37C3C005BBCF6;
+					};
+					FAEBD6051BD37C3C005BBCF6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FAEBD5E31BD37C3C005BBCF6;
+					};
+				};
+			};
+			buildConfigurationList = FAEBD5DF1BD37C3C005BBCF6 /* Build configuration list for PBXProject "BreakPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEBD5DB1BD37C3C005BBCF6;
+			productRefGroup = FAEBD5E51BD37C3C005BBCF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEBD5E31BD37C3C005BBCF6 /* BreakPhoto */,
+				FAEBD5FA1BD37C3C005BBCF6 /* BreakPhotoTests */,
+				FAEBD6051BD37C3C005BBCF6 /* BreakPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEBD5E21BD37C3C005BBCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEBD5F51BD37C3C005BBCF6 /* LaunchScreen.storyboard in Resources */,
+				FAEBD5F21BD37C3C005BBCF6 /* Assets.xcassets in Resources */,
+				FAEBD5ED1BD37C3C005BBCF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEBD5F91BD37C3C005BBCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEBD6041BD37C3C005BBCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEBD5E01BD37C3C005BBCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEBD5EA1BD37C3C005BBCF6 /* ViewController.swift in Sources */,
+				FAEBD5E81BD37C3C005BBCF6 /* AppDelegate.swift in Sources */,
+				FAEBD5F01BD37C3C005BBCF6 /* BreakPhoto.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEBD5F71BD37C3C005BBCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEBD6001BD37C3C005BBCF6 /* BreakPhotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEBD6021BD37C3C005BBCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEBD60B1BD37C3C005BBCF6 /* BreakPhotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEBD5FD1BD37C3C005BBCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEBD5E31BD37C3C005BBCF6 /* BreakPhoto */;
+			targetProxy = FAEBD5FC1BD37C3C005BBCF6 /* PBXContainerItemProxy */;
+		};
+		FAEBD6081BD37C3C005BBCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEBD5E31BD37C3C005BBCF6 /* BreakPhoto */;
+			targetProxy = FAEBD6071BD37C3C005BBCF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAEBD5EB1BD37C3C005BBCF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEBD5EC1BD37C3C005BBCF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEBD5F31BD37C3C005BBCF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEBD5F41BD37C3C005BBCF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEBD60D1BD37C3C005BBCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEBD60E1BD37C3C005BBCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEBD6101BD37C3C005BBCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreakPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigok.BreakPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAEBD6111BD37C3C005BBCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreakPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigok.BreakPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAEBD6131BD37C3C005BBCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BreakPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigok.BreakPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakPhoto.app/BreakPhoto";
+			};
+			name = Debug;
+		};
+		FAEBD6141BD37C3C005BBCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BreakPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigok.BreakPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakPhoto.app/BreakPhoto";
+			};
+			name = Release;
+		};
+		FAEBD6161BD37C3C005BBCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BreakPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigok.BreakPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BreakPhoto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAEBD6171BD37C3C005BBCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BreakPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigok.BreakPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BreakPhoto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEBD5DF1BD37C3C005BBCF6 /* Build configuration list for PBXProject "BreakPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEBD60D1BD37C3C005BBCF6 /* Debug */,
+				FAEBD60E1BD37C3C005BBCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEBD60F1BD37C3C005BBCF6 /* Build configuration list for PBXNativeTarget "BreakPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEBD6101BD37C3C005BBCF6 /* Debug */,
+				FAEBD6111BD37C3C005BBCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEBD6121BD37C3C005BBCF6 /* Build configuration list for PBXNativeTarget "BreakPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEBD6131BD37C3C005BBCF6 /* Debug */,
+				FAEBD6141BD37C3C005BBCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEBD6151BD37C3C005BBCF6 /* Build configuration list for PBXNativeTarget "BreakPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEBD6161BD37C3C005BBCF6 /* Debug */,
+				FAEBD6171BD37C3C005BBCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAEBD5EE1BD37C3C005BBCF6 /* BreakPhoto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAEBD5EF1BD37C3C005BBCF6 /* BreakPhoto.xcdatamodel */,
+			);
+			currentVersion = FAEBD5EF1BD37C3C005BBCF6 /* BreakPhoto.xcdatamodel */;
+			path = BreakPhoto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAEBD5DC1BD37C3C005BBCF6 /* Project object */;
+}
